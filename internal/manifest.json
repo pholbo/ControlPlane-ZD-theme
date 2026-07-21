@@ -1,0 +1,102 @@
+{
+  "name": "ControlPlane Internal Help Centre",
+  "author": "ControlPlane",
+  "version": "1.0.0",
+  "api_version": 2,
+  "default_locale": "en-us",
+  "settings": [
+    {
+      "name": "Colors",
+      "variables": [
+        {
+          "identifier": "brand_color",
+          "label": "Brand color",
+          "type": "color",
+          "value": "#17494D"
+        },
+        {
+          "identifier": "brand_text_color",
+          "label": "Text color used on the brand color",
+          "type": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "identifier": "text_color",
+          "label": "Text color",
+          "type": "color",
+          "value": "#2F3941"
+        },
+        {
+          "identifier": "background_color",
+          "label": "Background color",
+          "type": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "identifier": "link_color",
+          "label": "Link color",
+          "type": "color",
+          "value": "#1F73B7"
+        },
+        {
+          "identifier": "hover_link_color",
+          "label": "Hover link color",
+          "type": "color",
+          "value": "#1A5D93"
+        },
+        {
+          "identifier": "visited_link_color",
+          "label": "Visited link color",
+          "type": "color",
+          "value": "#65459B"
+        }
+      ]
+    },
+    {
+      "name": "Fonts",
+      "variables": [
+        {
+          "identifier": "heading_font",
+          "label": "Heading font",
+          "type": "font",
+          "value": "'Lato', sans-serif"
+        },
+        {
+          "identifier": "text_font",
+          "label": "Text font",
+          "type": "font",
+          "value": "'Lato', sans-serif"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "variables": [
+        {
+          "identifier": "homepage_background_image",
+          "label": "Homepage background image",
+          "type": "file",
+          "value": "homepage_background.jpg"
+        },
+        {
+          "identifier": "community_image",
+          "label": "Community image",
+          "type": "file",
+          "value": "community_image.png"
+        },
+        {
+          "identifier": "community_background_image",
+          "label": "Community background image",
+          "type": "file",
+          "value": "community_background.jpg"
+        },
+        {
+          "identifier": "service_catalog_hero_image",
+          "label": "Service catalog hero image",
+          "type": "file",
+          "value": "service_catalog_hero.jpg"
+        }
+      ]
+    }
+  ]
+}
