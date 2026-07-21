@@ -4,11 +4,13 @@ Zendesk theme source for the External and Internal help centres. These are two s
 
 ## Structure
 
-- `shared/base.css` — Copenhagen-based styles common to both help centres, using Zendesk's `$variable` theme-settings syntax (resolved via each centre's `manifest.json`, not plain CSS — expect editor warnings here)
+- `shared/base.css` — Copenhagen base styles common to both help centres (matches upstream Copenhagen `style.css` exactly), using Zendesk's `$variable` theme-settings syntax (resolved via each centre's `manifest.json`, not plain CSS — expect editor warnings here)
 - `external/overrides.css` — External help centre specific styles, imports `shared/base.css`
-- `external/manifest.json` — theme settings/variables for the External package
+- `external/manifest.json` — theme settings/variables for the External package (copy of upstream Copenhagen manifest — divergence per centre still to do)
+- `external/translations/` — label/description text for the manifest's settings panel, keyed by locale
 - `internal/overrides.css` — Internal help centre specific styles, imports `shared/base.css`
-- `internal/manifest.json` — theme settings/variables for the Internal package
+- `internal/manifest.json` — theme settings/variables for the Internal package (copy of upstream Copenhagen manifest — divergence per centre still to do)
+- `internal/translations/` — label/description text for the manifest's settings panel, keyed by locale
 
 ## Deploying
 
