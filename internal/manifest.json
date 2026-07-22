@@ -1,7 +1,7 @@
 {
   "name": "ControlPlane Internal Help Centre theme",
   "author": "ControlPlane",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "api_version": 4,
   "default_locale": "en-us",
   "settings": [
