@@ -1,7 +1,7 @@
 {
   "name": "ControlPlane Internal Help Centre theme",
   "author": "ControlPlane",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "api_version": 4,
   "default_locale": "en-us",
   "settings": [
@@ -13,7 +13,7 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#326CE5"
+          "value": "#1472eb"
         },
         {
           "identifier": "brand_text_color",
@@ -27,21 +27,21 @@
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#E5E7EB"
+          "value": "#101c30"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#326CE5"
+          "value": "#1472eb"
         },
         {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "hover_link_color_description",
           "label": "hover_link_color_label",
-          "value": "#5FB7FF"
+          "value": "#0f5ec5"
         },
         {
           "identifier": "visited_link_color",
@@ -55,7 +55,7 @@
           "type": "color",
           "description": "background_color_description",
           "label": "background_color_label",
-          "value": "#0F0F0F"
+          "value": "#FFFFFF"
         }
       ]
     },
@@ -67,11 +67,11 @@
           "type": "list",
           "description": "heading_font_description",
           "label": "heading_font_label",
-          "value": "'Montserrat', 'Helvetica Neue', Arial, sans-serif",
+          "value": "'Schibsted Grotesk', 'Helvetica Neue', Arial, sans-serif",
           "options": [
             {
-              "label": "Montserrat",
-              "value": "'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+              "label": "Schibsted Grotesk",
+              "value": "'Schibsted Grotesk', 'Helvetica Neue', Arial, sans-serif"
             },
             {
               "label": "System",
@@ -144,11 +144,11 @@
           "type": "list",
           "description": "text_font_description",
           "label": "text_font_label",
-          "value": "'Montserrat', 'Helvetica Neue', Arial, sans-serif",
+          "value": "'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif",
           "options": [
             {
-              "label": "Montserrat",
-              "value": "'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+              "label": "Hanken Grotesk",
+              "value": "'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif"
             },
             {
               "label": "System",
