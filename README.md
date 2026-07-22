@@ -19,3 +19,7 @@ Each help centre is a fully self-contained theme package — Zendesk doesn't res
 ## Building
 
 Run `./scripts/build.sh` after editing `shared/base.css` or either centre's `overrides.css`. It concatenates `shared/base.css` + the centre's `overrides.css` into `external/style.css` and `internal/style.css`, ready for `zcli themes:preview` / `zcli themes:import`.
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE). This repo is a modified version of Zendesk's [Copenhagen theme](https://github.com/zendesk/copenhagen_theme) (Copyright Zendesk, Inc., Apache 2.0); see [NOTICE](NOTICE) for exactly what Control Plane Ltd changed versus what's unmodified upstream code.
